@@ -1,0 +1,13 @@
+- name: "Sivakumnar"
+  dod: "1991-01-01"
+  mobileNumber: 9705637153
+  addresses: 
+  - flatNumber: 104
+    street: "gandhi nagar"
+    city: "hyderabad"
+    type: "permnant"
+
+  - flatNumber: 104
+    street: "gandhi nagar"
+    city: "hyderabad"
+    type: "current"

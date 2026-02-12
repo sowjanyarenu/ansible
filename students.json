@@ -1,0 +1,42 @@
+{
+    "students": [
+        {
+            "firstName": "SivaKumnar",
+            "dod": "1991-01-01",
+            "address":[
+                {
+                    "type": "perm",
+                    "flatNumber": "104",
+                    "street": "gandhi nagar",
+                    "city": "hyderabad"
+                },
+                {
+                    "type": "current",
+                    "flatNumber": "104",
+                    "street": "gandhi nagar",
+                    "city": "hyderabad"
+                }
+            ],
+            "skills":["java", "devops", "cloud"]
+        },
+        {
+            "firstName": "Sowjanya",
+            "dod": "1991-01-01",
+            "address":[
+                {
+                    "type": "perm",
+                    "flatNumber": "104",
+                    "street": "gandhi nagar",
+                    "city": "hyderabad"
+                },
+                {
+                    "type": "current",
+                    "flatNumber": "104",
+                    "street": "gandhi nagar",
+                    "city": "hyderabad"
+                }
+            ],
+            "skills":["java", "devops", "cloud"]
+        }
+    ]
+}
