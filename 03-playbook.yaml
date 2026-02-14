@@ -1,0 +1,5 @@
+- name: install and run nginx
+  hosts: web
+  tasks:
+  - name: intall nginx
+    ansible.builtin.package:  
