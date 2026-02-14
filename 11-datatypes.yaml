@@ -3,12 +3,12 @@
   connection: local
   vars: 
     PROGRAM: "DevSecOps with AWS"
-    DURATION: 140 # int/num
-    IS-LIVE; true # boolean
-    DETAILS: #map/dictionary
+    DURATION: 140 
+    IS-LIVE: true
+    DETAILS: 
       MONTHS: 4
       TRAINER: "SivaKumar Reddy"
-    TOPICS: #list []
+    TOPICS: 
     - Linux
     - Shell
     - ansible
