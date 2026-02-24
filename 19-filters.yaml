@@ -4,6 +4,7 @@
   vars:
     topics: linux, shell, ansible, terraform
     course: "Devops with Ansible"
+    myIP: "246.567,899,287"
     tagsMap: 
       name: ansible
       project: roboshop
@@ -38,5 +39,9 @@
   - name: convert to lower case
     ansible.builtin.debug:
       msg: "{{ course | lower }}"
+
+  - name: check ipv4
+    ansible.builtin.debug:
+      msg: "{{ myIP | ansible.util.ipv4 }}"
 
 
