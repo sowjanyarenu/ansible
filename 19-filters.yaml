@@ -12,14 +12,6 @@
     ansible.builtin.debug:
       msg: "{{ topics | split }}"
 
-  - name: convert to upper case
-    ansible.builtin.debug:
-      msg: "{{ course | upper}}"
-
-  - name: convert to lower case
-    ansible.builtin.debug:
-      msg: "{{ course | lower}}"
-
   - name: check ipv4
     ansible.builtin.debug:
       msg: "{{ myIp | ansible.utils.ipv4}}"
