@@ -12,6 +12,3 @@
     ansible.builtin.debug:
       msg: "{{ topics | split }}"
 
-  - name: check ipv4
-    ansible.builtin.debug:
-      msg: "{{ myIp | ansible.utils.ipv4}}"
