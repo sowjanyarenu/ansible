@@ -3,6 +3,25 @@
   connection: local
   vars:
     topics: linux, shell, ansible, terraform
+    course: "Devops with Ansible"
+    tagsMap: 
+      name: ansible
+      project: roboshop
+      component: catalogue
+    tagsList: [
+        {
+          "key": "name",
+          "value": "ansible"
+        },
+        {
+          "key": "project",
+          "value": "roboshop"
+        },
+        {
+          "key": "component",
+          "value": "catalogue"
+        }
+    ]
   tasks:
   - name: greeting
     ansible.builtin.debug:
@@ -10,5 +29,14 @@
   
   - name: convert string to list
     ansible.builtin.debug:
-      msg: "{{ topics | split }}"
+      msg: "{{ topics | split(',') }}"
+
+  - name: convert to upper case
+    ansible.builtin.debug:
+      msg: "{{ course | upper }}"
+
+  - name: convert to lower case
+    ansible.builtin.debug:
+      msg: "{{ course | lower }}"
+
 
